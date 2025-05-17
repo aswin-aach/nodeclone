@@ -18,7 +18,7 @@ Supports:
 
 ```bash
 # Install libuv if missing:
-sudo apt install libuv1-dev  # or: brew install libuv
+sudo apt install libuv1-dev
 
 # Build native library
 make
@@ -34,8 +34,7 @@ make run FILE=test.js
 ```
 quickjs/       # QuickJS source
 c/             # C wrappers
-nodeclone.lisp # Lisp FFI
-main.lisp      # Entrypoint
+nodeclone.lisp # Lisp FFI and entry point
 Makefile       # Build + run targets
 test.js        # Example JS file
 ```
